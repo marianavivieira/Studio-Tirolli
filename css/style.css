@@ -118,13 +118,14 @@ header {
 
 
    #sobre img {
-    width: 500px;
+    width: 800px;
     border-radius: 10px;
    }   
 
    .sobredesc {
     height: auto;
-   max-width: 500px;
+
+   max-width: 800px;
     margin-right: 600px;
    }
 
@@ -135,7 +136,7 @@ header {
    }
 
    .sobredesc p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.6;
    }
 
@@ -333,4 +334,101 @@ header {
     padding: 2rem 1rem;
     font-size: 1rem;
   }
+
+
+  /* PLANOS */
+
+  .categoria-titulo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .categoria-titulo span {
+    display: block;
+    font-size: 14px;
+    color: #666;
+  }
+  
+
+  .planos {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .subtitulo {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #0a0a23;
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; 
+    margin-bottom: 40px;
+  }
+  
+
+.card {
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+  background-color: #AAB4CE;
+  color: black;
+  padding: 10px 0;
+  margin: -20px -20px 10px -20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+div.title  {
+  margin: 0px;
+  padding: 0px;
+  background-color: #AAB4CE;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.card li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.card button {
+    background-color: #506BB1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card button:hover {
+    background-color: #273759;
+}
+
   
