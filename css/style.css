@@ -335,6 +335,40 @@ header {
     font-size: 1rem;
   }
 
+  /* SOBRENOS */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sobre h2 {
+    margin-bottom: 20px;
+  }
+  
+
+  .sobre {
+    
+    flex: 1 1 55%;
+    max-width: 400px;
+  }
+  
+  .imagem {
+    flex: 1 1 35%;
+    max-width: 400px;
+  }
+  
+  .imagem img {
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+  }
+  
 
   /* PLANOS */
 
@@ -429,6 +463,98 @@ div.title  {
 
 .card button:hover {
     background-color: #273759;
+}
+
+
+/*  consultoria  */
+
+.consultoria {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.consultoria h2 {
+  font-size: 24px;
+  color: #273759;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.consultoria ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.consultoria li {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #000;
+}
+
+.consultoria li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.consultoria .obs {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.btn-consultoria {
+  background-color: #273759;
+  color: white;
+  padding: 12px 28px;
+  font-weight: bold;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* descontos   */
+
+.parceiros-beneficios {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.parceiros, .beneficios {
+  flex: 1;
+  text-align: center;
+}
+
+.parceiros h3,
+.beneficios h3 {
+  color: #273759;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logo-parceiro {
+  width: 70px;
+  height: 70px;
+  background-color: #d9d9d9;
 }
 
   
