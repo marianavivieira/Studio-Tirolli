@@ -556,5 +556,42 @@ div.title  {
   height: 70px;
   background-color: #d9d9d9;
 }
+ 
+#menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
+/* MOBILE */
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  #nav-list {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: #273759;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  #nav-list.active {
+    display: flex;
+  }
+
+  #navbar {
+    padding: 0 20px;
+    position: relative;
+  }
+}
   
